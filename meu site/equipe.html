@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipe</title>
+        <link rel="stylesheet" href="style.css">
+         <style>
+        .conteiner{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            max-width: 700px;
+            margin: 30px auto;
+            justify-content: center;
+        }
+        .card{
+            background: rgb(243, 228, 250);
+            width: 190px;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        .card img{
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .nome{
+            background: #eb4add;
+            color: aliceblue;
+            margin-top: 10px;
+            padding: 5px;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 5px;
+            }
+        .cargo{
+            margin-top: 8px;
+            font-size: 14px;
+            color: #413d3d;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Nossa Equipe</h1>
+    <nav class="navbar">
+    <ul>
+        <li><a href="menunav.html">Home</a></li>
+        <li><a href="port.html">Portifólio</a></li>
+        <li><a href="equipe.html">Nossa Equipe</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+ </nav>
+ <div class="conteiner">
+
+    <div class="card">
+        <img src="img/alice.jpg" alt="Alice">
+        <div class="nome">Alice Oliveira</div>
+        <div class="cargo">Técnica em Informática</div>
+    </div>
+
+    <div class="card">
+        <img src="img/brenda.jpg" alt="Brenda">
+        <div class="nome">Brenda Mendes</div>
+        <div class="cargo">Ilustradora</div>
+    </div>
+
+    <div class="card">
+        <img src="img/gustavo.jpg" alt="Gustavo">
+        <div class="nome">Gustavo Rodrigues</div>
+        <div class="cargo">Técnico em Informática</div>
+    </div>
+
+    <div class="card">
+        <img src="img/italo.jpg" alt="Italo">
+        <div class="nome">Italo Samuel</div>
+        <div class="cargo">Administrador</div>
+    </div>
+
+    <div class="card">
+        <img src="img/maria.jpg" alt="Maria">
+        <div class="nome">Maria Julia</div>
+        <div class="cargo">Técnica em Informática</div>
+    </div>
+
+    <div class="card">
+        <img src="img/victor.jpg" alt="victor">
+        <div class="nome">Victor Hugo</div>
+        <div class="cargo">Designer Gráfico</div>
+    </div>
+
+</div>
+
+
+    
+</body>
+</html>

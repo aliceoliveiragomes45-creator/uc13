@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portiólio</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+         .galeria{
+        display: flex;
+        height: 20rem;
+        gap: 1rem;
+      }
+      .galeria >div{
+        flex: 1;
+        border-radius: rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        transition: all .8s cubic-bezier(.25,.4,.45,1.4);
+      }
+      .galeria>div:hover{
+        flex: 5;
+      }
+    </style>
+
+        
+</head>
+<body>
+    <h1>Nossos Trabalhos</h1>
+   <nav class="navbar">
+    <ul>
+        <li><a href="menunav.html">Home</a></li>
+        <li><a href="port.html">Portifólio</a></li>
+        <li><a href="equipe.html">Nossa Equipe</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+    </nav>
+ 
+
+<section class="carousel" aria-label="Gallery">
+    
+  <ol class="carousel__viewport">
+    <li id="carousel__slide1"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper">
+        <img class="img1" src="img/img0 (1).jpg">
+        <a href="#carousel_slide4"
+           class="carousel__prev">Go to last slide</a>
+        <a href="#carousel_prev_slide2"
+           class="carousel__next">Go to next slide</a>
+      </div>
+    </li>
+    <li id="carousel__slide2"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <img class="img2" src="img/img0 (2).jpg">
+      <a href="#carousel__slide1"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide3"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <img class="img3" src="img/img0 (3).jpg">
+      <a href="#carousel__slide2"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide4"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide4"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <img class="img4" src="img/img0 (4).jpg"
+      <a href="#carousel__slide3"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide1"
+         class="carousel__next">Go to first slide</a>
+    </li>
+  </ol>
+  <aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1"
+           class="carousel__navigation-button">Go to slide 1</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2"
+           class="carousel__navigation-button">Go to slide 2</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3"
+           class="carousel__navigation-button">Go to slide 3</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide4"
+           class="carousel__navigation-button">Go to slide 4</a>
+      </li>
+    </ol>
+  </aside>
+  
+</section>
+
+    
+    
+</body>
+</html>
